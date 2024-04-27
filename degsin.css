@@ -1,0 +1,280 @@
+body {
+    margin: 0;
+    font-family: var(--bs-body-font-family);
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    color: var(--bs-body-color);
+    text-align: var(--bs-body-text-align);
+    background-color: var(--bs-body-bg);
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+#mainNav {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    background-color: #fff;
+    transition: background-color 0.2s ease;
+    /* opacity: 100; */
+    z-index: 10;
+}
+
+.head-icon:hover {
+    color: #f4623a;
+
+}
+
+header.masthead {
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 4.5rem);
+    background: linear-gradient(to bottom,
+            rgba(92, 77, 66, 0.8) 0%,
+            rgba(92, 77, 66, 0.8) 100%),
+        url("./6.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+header.masthead h1,
+header.masthead .h1 {
+    font-size: calc(1.375rem + 1.5vw);
+
+}
+
+h1,
+.h1 {
+    font-size: 3.5rem;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont,
+        "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+        "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 1000;
+    line-height: 1.2;
+}
+
+.page-section {
+    padding: 8rem 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.page-section {
+    padding: 8rem 0;
+    background-color: #f4623a;
+}
+
+.text-white-75 {
+    color: rgba(255, 255, 255, 0.75) !important;
+}
+
+.btn-xl {
+    padding: 1.25rem 2.25rem;
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10rem;
+}
+
+hr.divider {
+    height: 0.2rem;
+    max-width: 3.25rem;
+    margin: 1.5rem auto;
+    background-color: #f4623a;
+    opacity: 1;
+}
+
+hr.divider-light {
+    background-color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+.noon {
+    padding-top: 100px;
+    text-align: center;
+}
+
+.cards-a {
+    padding: 30px;
+    /* height: 300px; */
+    position: relative;
+    /* top: -180px; */
+
+}
+
+.cards-a div {
+    width: 15%;
+}
+
+.cards-a div div:hover {
+    background-color: rgb(248, 248, 239);
+
+}
+
+.cards-a div .icon {
+    width: 150px;
+
+    height: 150px;
+    text-align: center;
+}
+
+.cards-a div div i {
+    font-size: 50px;
+    color: #ff7a5c;
+}
+
+
+
+
+
+
+
+
+.gallery-1 {
+    width: 100%;
+    background-color: rgb(15, 6, 46);
+}
+
+.dawnloadBox {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(15, 6, 46);
+
+}
+
+
+.gallery-1 div img {
+    width: 100%;
+    height: 100%;
+    padding-right: 0;
+    /* margin-left: 1px; */
+
+}
+
+.gallery-1 div {
+    width: 33.1%;
+    height: 260px;
+    display: inline-block;
+    /* margin-right: 10px; */
+
+
+
+}
+
+.gallery-1 div p {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    height: 0px;
+    padding-top: 120px;
+    padding-bottom: 20px;
+    width: 300px;
+    margin-bottom: 0;
+    text-transform: capitalize;
+    text-align: center;
+    background-color: #f4623adb;
+    opacity: 0;
+    position: absolute;
+    bottom: 0px;
+
+}
+
+.gallery-1 div:hover p {
+    opacity: 90;
+    height: 100%;
+    width: 100%;
+
+}
+
+.gallery-1 div:hover {
+    transform: scale(1);
+    transition-duration: 3s;
+
+}
+
+.loginBox {
+    height: 400px;
+    padding-top: 100px;
+}
+
+.loginBox div div h2 {
+    color: rgb(5, 4, 4);
+}
+
+
+
+
+.formBox {
+    width: 100%;
+    height: 700px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+form {
+
+    width: 40%;
+    /* background-color: #f4623a; */
+
+
+}
+
+form input {
+    width: 100%;
+    display: block;
+    padding: 20px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    border-radius: 3px;
+    border: 2px solid gray;
+    color: black;
+    height: 50px;
+
+}
+
+input:focus {
+    color: #f4623a;
+}
+
+textarea {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 200px;
+    border: 2px solid gray;
+    border-radius: 3px;
+}
+
+.btn {
+    background-color: #f4623a9b;
+}
+
+.btn:hover {
+    background-color: #f4623a;
+}
+
+.fa-solid {
+    font-size: 50px;
+}
+
+h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
